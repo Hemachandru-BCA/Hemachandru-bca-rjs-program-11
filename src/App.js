@@ -17,10 +17,7 @@ function App() {
   //     Login button
   // The Login button should use onClick
   // to change the login state.
-  if (isLoggedIn == true) {
-    React.createElement("h2", null, "Welcome Student");
-    console.log('logged in already');
-  }
+
   return (
     <>
       <div>
