@@ -16,10 +16,12 @@ function App() {
           <input type="text" /> <br />
           <label>RollNo:</label>
           <input type="text" /><br />
+          <div>
           {
             isLoggedIn ? (<h2>Welcome Student</h2>) : 
             (<button type="button" onClick={() => setLogin(true)}>Login</button>)
           }
+          </div>
         </form>
       </div>
     </>
